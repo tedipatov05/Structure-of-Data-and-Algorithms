@@ -1,0 +1,4 @@
+﻿  01. Buble Sort.cpp
+D:\ФМИ\Structure of Data and Algorithms\Algorithms\01. Buble Sort\01. Buble Sort.cpp(27,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\ФМИ\Structure of Data and Algorithms\Algorithms\01. Buble Sort\01. Buble Sort.cpp(43,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  01. Buble Sort.vcxproj -> D:\ФМИ\Structure of Data and Algorithms\Algorithms\x64\Debug\01. Buble Sort.exe

@@ -1,0 +1,4 @@
+﻿  08. Binary Search.cpp
+D:\ФМИ\Structure of Data and Algorithms\Algorithms\08. Binary Search\08. Binary Search.cpp(11,12): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\ФМИ\Structure of Data and Algorithms\Algorithms\08. Binary Search\08. Binary Search.cpp(46,57): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  08. Binary Search.vcxproj -> D:\ФМИ\Structure of Data and Algorithms\Algorithms\x64\Debug\08. Binary Search.exe

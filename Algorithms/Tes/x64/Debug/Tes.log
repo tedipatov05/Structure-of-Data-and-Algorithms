@@ -1,0 +1,6 @@
+﻿  Tes.cpp
+D:\ФМИ\Structure of Data and Algorithms\Algorithms\Tes\Tes.cpp(10,14): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\ФМИ\Structure of Data and Algorithms\Algorithms\Tes\Tes.cpp(92,29): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\ФМИ\Structure of Data and Algorithms\Algorithms\Tes\Tes.cpp(94,25): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\ФМИ\Structure of Data and Algorithms\Algorithms\Tes\Tes.cpp(102,34): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  Tes.vcxproj -> D:\ФМИ\Structure of Data and Algorithms\Algorithms\x64\Debug\Tes.exe

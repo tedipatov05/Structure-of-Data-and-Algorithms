@@ -1,0 +1,4 @@
+﻿  07. Quick Select.cpp
+D:\ФМИ\Structure of Data and Algorithms\Algorithms\07. Quick Select\07. Quick Select.cpp(73,14): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\ФМИ\Structure of Data and Algorithms\Algorithms\07. Quick Select\07. Quick Select.cpp(40,1): warning C4715: 'quickSelect': not all control paths return a value
+  07. Quick Select.vcxproj -> D:\ФМИ\Structure of Data and Algorithms\Algorithms\x64\Debug\07. Quick Select.exe

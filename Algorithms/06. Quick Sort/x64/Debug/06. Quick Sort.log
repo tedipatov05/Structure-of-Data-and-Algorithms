@@ -1,0 +1,3 @@
+﻿  06. Quick Sort.cpp
+D:\ФМИ\Structure of Data and Algorithms\Algorithms\06. Quick Sort\06. Quick Sort.cpp(64,8): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  06. Quick Sort.vcxproj -> D:\ФМИ\Structure of Data and Algorithms\Algorithms\x64\Debug\06. Quick Sort.exe

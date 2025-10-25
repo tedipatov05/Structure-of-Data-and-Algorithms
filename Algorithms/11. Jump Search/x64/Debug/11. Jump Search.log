@@ -1,0 +1,4 @@
+﻿  11. Jump Search.cpp
+D:\ФМИ\Structure of Data and Algorithms\Algorithms\11. Jump Search\11. Jump Search.cpp(10,10): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\ФМИ\Structure of Data and Algorithms\Algorithms\11. Jump Search\11. Jump Search.cpp(11,11): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  11. Jump Search.vcxproj -> D:\ФМИ\Structure of Data and Algorithms\Algorithms\x64\Debug\11. Jump Search.exe
