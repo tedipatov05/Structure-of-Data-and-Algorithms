@@ -46,4 +46,19 @@ int main()
 	{
 		cout << "Element not found in the array." << endl;
 	}
+
+	int a;
+	switch (a)
+	{
+		case 3:
+			cout << "error" << endl;
+			break;
+		case 1:
+			cout << "one" << endl;
+
+		default:
+			cout << "13" << endl;
+			break;
+
+	}
 }
