@@ -28,7 +28,7 @@ public:
 	void pop_back();
 	void remove(const T&);
 	bool contains(const T&) const;
-	void print() const; // Optional: for debugging purposes
+	void print() const; 
 	void insert(const T&, size_t);
 	size_t getSize() const;
 

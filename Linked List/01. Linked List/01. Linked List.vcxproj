@@ -126,6 +126,7 @@
     <ClCompile Include="01. Linked List.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="DoublyLinkedList.hpp" />
     <ClInclude Include="SinglyLinkedList.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
