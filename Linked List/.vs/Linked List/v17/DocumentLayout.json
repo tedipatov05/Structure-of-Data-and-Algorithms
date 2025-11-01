@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "D:\\\u0424\u041C\u0418\\Structure of Data and Algorithms\\Linked List\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BB755092-5FA4-43FF-B231-C3D1A5FCD728}|01. Linked List\\01. Linked List.vcxproj|D:\\\u0424\u041C\u0418\\Structure of Data and Algorithms\\Linked List\\01. Linked List\\01. Linked List.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BB755092-5FA4-43FF-B231-C3D1A5FCD728}|01. Linked List\\01. Linked List.vcxproj|solutionrelative:01. Linked List\\01. Linked List.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{BB755092-5FA4-43FF-B231-C3D1A5FCD728}|01. Linked List\\01. Linked List.vcxproj|D:\\\u0424\u041C\u0418\\Structure of Data and Algorithms\\Linked List\\01. Linked List\\DoublyLinkedList.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BB755092-5FA4-43FF-B231-C3D1A5FCD728}|01. Linked List\\01. Linked List.vcxproj|solutionrelative:01. Linked List\\DoublyLinkedList.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BB755092-5FA4-43FF-B231-C3D1A5FCD728}|01. Linked List\\01. Linked List.vcxproj|D:\\\u0424\u041C\u0418\\Structure of Data and Algorithms\\Linked List\\01. Linked List\\SinglyLinkedList.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{BB755092-5FA4-43FF-B231-C3D1A5FCD728}|01. Linked List\\01. Linked List.vcxproj|solutionrelative:01. Linked List\\SinglyLinkedList.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB755092-5FA4-43FF-B231-C3D1A5FCD728}|01. Linked List\\01. Linked List.vcxproj|D:\\\u0424\u041C\u0418\\Structure of Data and Algorithms\\Linked List\\01. Linked List\\01. Linked List.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BB755092-5FA4-43FF-B231-C3D1A5FCD728}|01. Linked List\\01. Linked List.vcxproj|solutionrelative:01. Linked List\\01. Linked List.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,11 +30,37 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DoublyLinkedList.hpp",
+              "DocumentMoniker": "D:\\\u0424\u041C\u0418\\Structure of Data and Algorithms\\Linked List\\01. Linked List\\DoublyLinkedList.hpp",
+              "RelativeDocumentMoniker": "01. Linked List\\DoublyLinkedList.hpp",
+              "ToolTip": "D:\\\u0424\u041C\u0418\\Structure of Data and Algorithms\\Linked List\\01. Linked List\\DoublyLinkedList.hpp",
+              "RelativeToolTip": "01. Linked List\\DoublyLinkedList.hpp",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAAF4AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-11-01T19:18:55.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "01. Linked List.cpp",
+              "DocumentMoniker": "D:\\\u0424\u041C\u0418\\Structure of Data and Algorithms\\Linked List\\01. Linked List\\01. Linked List.cpp",
+              "RelativeDocumentMoniker": "01. Linked List\\01. Linked List.cpp",
+              "ToolTip": "D:\\\u0424\u041C\u0418\\Structure of Data and Algorithms\\Linked List\\01. Linked List\\01. Linked List.cpp",
+              "RelativeToolTip": "01. Linked List\\01. Linked List.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-30T16:36:35.288Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
               "$type": "Document",
@@ -40,22 +70,9 @@
               "RelativeDocumentMoniker": "01. Linked List\\SinglyLinkedList.hpp",
               "ToolTip": "D:\\\u0424\u041C\u0418\\Structure of Data and Algorithms\\Linked List\\01. Linked List\\SinglyLinkedList.hpp",
               "RelativeToolTip": "01. Linked List\\SinglyLinkedList.hpp",
-              "ViewState": "AgIAAGoAAAAAAAAAAAAwwIUAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAO0AAAAAAAAAAAAAAAQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-10-31T22:03:40.448Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "01. Linked List.cpp",
-              "DocumentMoniker": "D:\\\u0424\u041C\u0418\\Structure of Data and Algorithms\\Linked List\\01. Linked List\\01. Linked List.cpp",
-              "RelativeDocumentMoniker": "01. Linked List\\01. Linked List.cpp",
-              "ToolTip": "D:\\\u0424\u041C\u0418\\Structure of Data and Algorithms\\Linked List\\01. Linked List\\01. Linked List.cpp",
-              "RelativeToolTip": "01. Linked List\\01. Linked List.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-10-30T16:36:35.288Z",
               "EditorCaption": ""
             }
           ]
