@@ -71,5 +71,6 @@ int main()
 	{
 		cout << num << " ";
 	}
+
 }
 
