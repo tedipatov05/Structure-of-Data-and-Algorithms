@@ -3,6 +3,7 @@
 
 #include <functional>
 #include <iostream>
+#include <vector>
 
 struct ListNode
 {
@@ -43,17 +44,31 @@ bool isPalindrome(ListNode* head) {
     return true;
 }
 
+int peakIndexInMountainArray(std::vector<int>& arr) {
+    int left = 0;
+    int right = arr.size() - 1;
+    int solution = -1;
+
+    while (left <= right) {
+        int mid = left + (right - left) / 2;
+
+        if (arr[mid] > arr[mid + 1]) {
+            solution = mid;
+            right = mid - 1;
+        }
+        else {
+            left = mid + 1;
+        }
+    }
+
+
+    return solution;
+}
+
 int main()
 {
-    ListNode* head = new ListNode(1);
-    ListNode* second = new ListNode(2);
-    head->next = second;
-    ListNode* third = new ListNode(2);
-    second->next = third;
-    ListNode* forth = new ListNode(1);
-    third->next = forth;
-
-    std::cout << std::boolalpha << isPalindrome(head) << std::endl;
+    std::vector<int> data = { 0, 2, 1, 0 };
+    int peakIndex = peakIndexInMountainArray(data);
 
 }
 
