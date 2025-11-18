@@ -1,6 +1,7 @@
 #pragma once
 #include <iostream>
 #include <queue>
+#include <stack>
 
 struct Node
 {
@@ -26,11 +27,13 @@ public:
 	int height();
 
 	// TODO:
-	void kthSmallestHelper(Node* node, int& k, int& result);
-	Node* lcaHelper(Node* node, int n1, int n2);
-	Node* successorHelper(Node* node, int val, Node*& succ);
-	Node* predecessorHelper(Node* node, int val, Node*& pred);
+	int findLCA(int n1, int n2);
+	int findKSmallest(int k);
+	int findPredecessor(int value);
+	int findSuccessor(int value);
 
+	void dfs() const;
+	void bfs() const;
 
 
 private:
@@ -49,11 +52,13 @@ private:
 	bool isValidBSTHelper(Node* node, long minVal, long maxVal);
 	void bfsTraversal();
 
+	void kthSmallestHelper(Node* node, int& k, int& result);
+	Node* lcaHelper(Node* node, int n1, int n2);
+	Node* successorHelper(Node* node, int val, Node*& succ);
+	Node* predecessorHelper(Node* node, int val, Node*& pred);
+
 	// TODO:
-	int findLCA(int n1, int n2);
-	int findKSmallest(int k);
-	int findPredecessor(int value);
-	int findSuccessor(int value);
+	
 };
 
 inline Node* Tree::insertHelper(Node* node, int value)
@@ -361,11 +366,56 @@ inline Node* Tree::successorHelper(Node* node, int val, Node*& succ)
 	{
 		succ = node;
 		return successorHelper(node->left, val, succ);
-	} else
+	}
+	else
 	{
 		return successorHelper(node->right, val, succ);
 	}
 }
+
+inline void Tree::dfs() const
+{
+	std::stack<Node*> data;
+	Node* current = root;
+
+	while (current || !data.empty())
+	{
+		while (current)
+		{
+			data.push(current);
+			current = current->left;
+		}
+
+		current = data.top();
+		data.pop();
+		std::cout << current->value << " ";
+		current = current->right;
+	}
+}
+
+inline void Tree::bfs() const
+{
+	std::queue<Node*> container;
+	container.push(root);
+
+	while (!container.empty()) {
+		size_t levelSize = container.size();
+		while (levelSize > 0) {
+			Node* current = container.front();
+			container.pop();
+
+			if (current) {
+				std::cout << current->value << " ";
+				container.push(current->left);
+				container.push(current->right);
+			}
+			levelSize--;
+		}
+		std::cout << std::endl;
+	}
+}
+
+
 
 
 
