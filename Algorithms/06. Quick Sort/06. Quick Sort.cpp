@@ -26,7 +26,7 @@ void quickSort(vector<int>& arr, int left,int right)
 {
 	if (left < right)
 	{
-		int pi = hoarePartition(arr, left, right);
+		int pi = partition(arr, left, right);
 
 		quickSort(arr, left, pi - 1);
 		quickSort(arr, pi + 1, right);

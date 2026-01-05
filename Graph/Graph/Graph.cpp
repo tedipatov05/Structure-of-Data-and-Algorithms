@@ -4,13 +4,9 @@
 #include <stack>
 #include <unordered_map>
 #include <unordered_set>
-#include <limits>
-#include <algorithm>
-
 using namespace std;
 
 class Graph {
-private:
 	int V;
 	bool directed;
 	unordered_map<int, unordered_set<int>> adjList; 
@@ -184,33 +180,5 @@ public:
 };
 
 int main() {
-	//Graph g(6, false); // undirected graph with 6 vertices
-
-	//g.addEdge(0, 1, 4);
-	//g.addEdge(0, 2, 3);
-	//g.addEdge(1, 2, 1);
-	//g.addEdge(1, 3, 2);
-	//g.addEdge(2, 3, 4);
-	//g.addEdge(3, 4, 2);
-	//g.addEdge(4, 5, 6);
-
-	//g.printGraph();
-
-	//g.BFS(0);
-	//g.DFS(0);
-
-	//cout << "\nShortest paths from vertex 0:" << endl;
-	//vector<int> distances = g.dijkstra(0);
-	//for (int i = 0; i < distances.size(); i++) {
-	//	if (distances[i] == INT_MAX) {
-	//		cout << "0 -> " << i << ": INF" << endl;
-	//	}
-	//	else {
-	//		cout << "0 -> " << i << ": " << distances[i] << endl;
-	//	}
-	//}
-
-	//cout << "\nHas cycle: " << (g.hasCycle() ? "Yes" : "No") << endl;
-
 	return 0;
 }
